@@ -1,6 +1,6 @@
 # gulp-html-header
 
-## 替换静态html下的头部文件
+替换静态html下的头部文件
 
 ***
 
