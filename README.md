@@ -1,11 +1,6 @@
 # gulp-html-template
-var gulp = require('gulp');
-var template = require('htmlTemplate.js');
 
 ***
-
-
-
 
 ``` js
 var gulp = require('gulp');
