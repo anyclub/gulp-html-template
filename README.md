@@ -4,23 +4,26 @@
 
 ***
 
-html
+
+## html
+
 ```
 <link rel="template" href="_header.html">
 
-	<!-- main -->
+<!-- main -->
 
 <link rel="template" href="_footer.html">
 ```
 
 ***
+## gulpfile.js
 
 ``` js
 var gulp = require('gulp');
-var template = require('htmlTemplate.js');
+var template = require('gulp-html-header.js');
 
 gulp.task('template', function() {
-	gulp.src(['template/*.html', '!template/_header.html', '!template/_footer.html'])
+	gulp.src('template/*.html')
 		.pipe(template())
 		.pipe(gulp.dest('html'))
 })
