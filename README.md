@@ -6,22 +6,20 @@
 
 ## example
 
-* _header.html
+1. _header.html
 
 ``` html
 <header></header>
 ```
 
-* template.html
+2. template.html
 
 ``` html
 <link rel="template" href="_header.html">
 <div class="main"></div>
 ```
 
-***
-
-## gulpfile.js
+3. gulpfile.js
 
 ``` js
 var gulp = require('gulp');
