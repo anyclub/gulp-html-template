@@ -1,4 +1,4 @@
-# gulp-html-template
+# gulp-html-header
 
 ***
 

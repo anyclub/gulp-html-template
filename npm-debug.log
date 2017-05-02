@@ -1,0 +1,113 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'D:\\gulp-html-template',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\Administrator\AppData\Roaming\npm-cache\gulp-html-template\1.0.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle gulp-html-template@1.0.0~prepublish: gulp-html-template@1.0.0
+11 silly lifecycle gulp-html-template@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\Administrator\\AppData\\Roaming\\npm-cache\\gulp-html-template\\1.0.0\\package.tgz',
+12 verbose tar pack   'D:\\gulp-html-template' ]
+13 verbose tarball C:\Users\Administrator\AppData\Roaming\npm-cache\gulp-html-template\1.0.0\package.tgz
+14 verbose folder D:\gulp-html-template
+15 verbose addLocalTarball adding from inside cache C:\Users\Administrator\AppData\Roaming\npm-cache\gulp-html-template\1.0.0\package.tgz
+16 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd gulp-html-template@1.0.0
+18 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\gulp-html-template\1.0.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\Administrator\AppData\Roaming\npm-cache\gulp-html-template\1.0.0\package\package.json written
+21 silly publish { name: 'gulp-html-template',
+21 silly publish   version: '1.0.0',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/anyclub/gulp-html-template.git' },
+21 silly publish   description: '***',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   keywords: [ 'gulp', 'template', 'html', 'footer', 'header' ],
+21 silly publish   author:
+21 silly publish    { name: 'anyc',
+21 silly publish      email: '53881706@qq.com',
+21 silly publish      url: 'https://github.com/anyclub/' },
+21 silly publish   license: 'ISC',
+21 silly publish   dependencies: { 'gulp-util': '^3.0.8', through2: '^2.0.3' },
+21 silly publish   readme: '# gulp-html-template\r\n\r\n***\r\n\r\n``` js\r\nvar gulp = require(\'gulp\');\r\nvar template = require(\'htmlTemplate.js\');\r\n\r\ngulp.task(\'template\', function() {\r\n\tgulp.src([\'template/*.html\', \'!template/_header.html\', \'!template/_footer.html\'])\r\n\t\t.pipe(template())\r\n\t\t.pipe(gulp.dest(\'html\'))\r\n})\r\n```',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '07d52d15224ee0528714b3f65ddb44143fe7a06b',
+21 silly publish   bugs: { url: 'https://github.com/anyclub/gulp-html-template/issues' },
+21 silly publish   homepage: 'https://github.com/anyclub/gulp-html-template#readme',
+21 silly publish   _id: 'gulp-html-template@1.0.0',
+21 silly publish   _shasum: 'b5a36ddf805db0861b1c00fe4ac500f464d95761',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name gulp-html-template
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'gulp-html-template',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'gulp-html-template',
+26 silly mapToRegistry   name: 'gulp-html-template',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/gulp-html-template
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading C:\Users\Administrator\AppData\Roaming\npm-cache\gulp-html-template\1.0.0\package.tgz
+30 verbose request uri https://registry.npmjs.org/gulp-html-template
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 18:29:13
+33 verbose request using bearer token for auth
+34 verbose request id 88fb630cce262619
+35 http request PUT https://registry.npmjs.org/gulp-html-template
+36 http 403 https://registry.npmjs.org/gulp-html-template
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '112',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Tue, 02 May 2017 10:29:04 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-itm7421-ITM',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1493720944.253015,VS0,VE543',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-html-template on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: you do not have permission to publish "gulp-html-template". Are you logged in as the correct user? : gulp-html-template
+40 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+40 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+40 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+41 verbose statusCode 403
+42 verbose pkgid gulp-html-template
+43 verbose cwd D:\gulp-html-template
+44 error Windows_NT 10.0.15063
+45 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+46 error node v6.10.0
+47 error npm  v3.10.10
+48 error code E403
+49 error you do not have permission to publish "gulp-html-template". Are you logged in as the correct user? : gulp-html-template
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]

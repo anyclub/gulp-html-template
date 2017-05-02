@@ -4,7 +4,7 @@ var gutil = require('gulp-util');
 var PluginError = gutil.PluginError;
 
 // 常量
-const PLUGIN_NAME = 'gulp-html-template';
+const PLUGIN_NAME = 'gulp-html-header';
 
 function replaceHtml(file, opt, done) {
 	var context = String(file.contents);
