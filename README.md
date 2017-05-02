@@ -20,7 +20,7 @@
 
 ``` js
 var gulp = require('gulp');
-var template = require('gulp-html-header.js');
+var template = require('gulp-html-header');
 
 gulp.task('template', function() {
 	gulp.src('template/*.html')
