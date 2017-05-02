@@ -1,5 +1,18 @@
 # gulp-html-header
 
+## 替换静态html下的头部文件
+
+***
+
+html
+```
+<link rel="template" href="_header.html">
+
+	<!-- main -->
+
+<link rel="template" href="_footer.html">
+```
+
 ***
 
 ``` js
