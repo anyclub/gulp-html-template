@@ -1,6 +1,10 @@
 {
   "name": "gulp-html-template",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anyclub/gulp-html-template.git"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,6 +18,11 @@
     "header"
   ],
   "author": "anyc",
+  "author": {
+    "name": "anyc",
+    "email": "53881706@qq.com",
+    "url": "https://github.com/anyclub/"
+  },
   "license": "ISC",
   "dependencies": {
     "gulp-util": "^3.0.8",
