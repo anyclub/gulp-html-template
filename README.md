@@ -4,22 +4,22 @@
 
 ***
 
+## example
 
-## html
-
-### _header.html
+* _header.html
 
 ``` html
-	<header></header>
-
+<header></header>
 ```
 
-### template.html
+* template.html
 
 ``` html
 <link rel="template" href="_header.html">
 <div class="main"></div>
 ```
+
+***
 
 ## gulpfile.js
 
@@ -36,7 +36,7 @@ gulp.task('template', function() {
 
 ***
 
-## html/template.html
+## result
 
 ``` html
 <header></header>
