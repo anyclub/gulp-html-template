@@ -17,7 +17,7 @@ function replaceHtml(file, opt, done) {
 		});
 	});
 
-	return dataReplace = new Buffer(dataReplace);
+	return dataReplace;
 }
 
 function gulpHtmlTemplate(options) {
@@ -29,12 +29,12 @@ function gulpHtmlTemplate(options) {
 		}
 
 		if (file.isStream()) {
+			// stream
 			return;
 		}
 
 		if (file.isBuffer()) {
-			var data = replaceHtml(file, options, cb);
-			file.contents = Buffer.concat([data]);
+			file.contents = new Buffer(replaceHtml(file, options, cb));
 		}
 		this.push(file);
 		cb();
